@@ -1,10 +1,42 @@
 .container{
     display: grid;
     grid-template-columns: 2fr 10fr;
-    column-gap: 1em;
+    
 }
 
 .menu{
     background-color: #3C4B64;
     height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+
+}
+.logo{
+    width: 196px;
+    padding-left: 11px;
+    padding-right: 31px;
+    padding-top: 8px;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+    row-gap: 1em;
+}
+.content-form{
+    display: grid;
+    grid-template-rows:1fr 11fr;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.content-option{
+    background-color: #ffffff;
+    min-height:70px ;
+}
+.form-title{
+    border-bottom: 1px solid #d8dbe0;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
