@@ -40,3 +40,61 @@
     font-weight: 700;
     margin-bottom: 40px;
 }
+
+/*css menu*/
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 10px;
+background:#3C4B64;
+color: #eee;
+text-decoration: none;
+box-sizing: border-box;
+font-weight: 400;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 10px;
+background: #3C4B64;
+color: #ffffff;
+
+border: 0;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.acorh li a:hover {
+background: #321fdb;
+color: #fff;
+}
+ul.acorh li:target ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+    }
