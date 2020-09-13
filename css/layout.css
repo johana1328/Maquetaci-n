@@ -1,0 +1,135 @@
+/*Css template genaral*/
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+   }
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #3c4b64;
+    background-color: #ebedef;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    margin:0px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    height: 100%;
+}
+
+.menu{
+    background-color: #3C4B64;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px [main-start] 100px [main-end] 100px;
+}
+
+/*Css del menu*/
+.logo{
+    width: 196px;
+    padding-left: 11px;
+    padding-right: 31px;
+    padding-top: 8px;
+}
+
+ul.acorh, ul.acorh * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul.acorh {
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.acorh li {
+    list-style: none;
+}
+
+ul.acorh li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    background:#3C4B64;
+    color: #eee;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+ul.acorh li ul {
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
+}
+
+ul.acorh li li a {
+    padding: 10px 10px 10px 10px;
+    background: #3C4B64;
+    color: #ffffff;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul.acorc li li:last-child a {
+    border-bottom: 0;
+}
+
+ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+
+ul.acorh li a:hover {
+    background: #321fdb;
+    color: #fff;
+}
+
+ul.acorh li:target ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+
+/*Css del contenido*/
+.content{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    row-gap: 1em;
+}
+.content-form{
+    display: grid;
+    grid-template-rows:1fr 7fr;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.content-option{
+    background-color: #ffffff;
+    min-height:70px ;
+}
+.form-title{
+    border-bottom: 1px solid #d8dbe0;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
