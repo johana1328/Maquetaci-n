@@ -4,11 +4,153 @@
         <meta charset="utf-8">
         <title>Gestion Talento CMC</title>
         <link rel="stylesheet" href="./css/main.css"  /> 
+        <link rel="stylesheet" href="./css/layout.css"  /> 
+        <link rel="stylesheet" href="./css/componentes.css"  /> 
     </head>
     <body>
         <div class="container">
-            <div class="menu">menu</div>
-            <div class="content">contenido</div>
+            <div class="menu">
+                <div class="logo"><img class="logo"src="img/logo.png"></img></div>
+                <div class="opciones">
+                    <ul class="acorh">
+                        <li id="opcion1"><a href="#opcion1">OPCIÓN 1</a>
+                          <ul>
+                            <li><a href="#">Opción 1.1</a></li>
+                            <li><a href="#">Opción 1.2</a></li>
+                          </ul>
+                        </li>
+                        <li id="opcion2"><a href="#opcion2">OPCIÓN 2</a>
+                          <ul>
+                            <li><a href="#">Opción 2.1</a></li>
+                            <li><a href="#">Opción 2.2</a></li>
+                            <li><a href="#">Opción 2.3</a></li>
+                          </ul>
+                        </li>
+                        <li id="opcion3"><a href="#opcion3">OPCIÓN 3</a>
+                          <ul>
+                            <li><a href="#">Opción 3.1</a></li>
+                            <li><a href="#">Opción 3.2</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-option">mmm</div>
+                <div class="content-body">
+                    <div class="content-form">
+                        <div class="form-title">Crear Usuario</div>
+                        <div class="form-body">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name">
+                            </div>
+                            <h3>botones</h3>
+                            <button class="btn btn-block btn-info" type="button">Info</button>
+
+                            <h3>radio</h3>
+                            <div class="col-md-9 col-form-label">
+                              <div class="form-check">
+                              <input class="form-check-input" id="radio1" type="radio" value="radio1" name="radios">
+                              <label class="form-check-label" for="radio1">Option 1</label>
+                              </div>
+                              <div class="form-check">
+                              <input class="form-check-input" id="radio2" type="radio" value="radio2" name="radios">
+                              <label class="form-check-label" for="radio2">Option 2</label>
+                              </div>
+                              <div class="form-check">
+                              <input class="form-check-input" id="radio3" type="radio" value="radio2" name="radios">
+                              <label class="form-check-label" for="radio3">Option 3</label>
+                              </div>
+                              </div>
+
+                             <h3>check</h3> 
+                             <div class="col-md-9 col-form-label">
+                              <div class="form-check checkbox">
+                              <input class="form-check-input" id="check1" type="checkbox" value="">
+                              <label class="form-check-label" for="check1">Option 1</label>
+                              </div>
+                              <div class="form-check checkbox">
+                              <input class="form-check-input" id="check2" type="checkbox" value="">
+                              <label class="form-check-label" for="check2">Option 2</label>
+                              </div>
+                              <div class="form-check checkbox">
+                              <input class="form-check-input" id="check3" type="checkbox" value="">
+                              <label class="form-check-label" for="check3">Option 3</label>
+                              </div>
+                              </div>
+
+                              <h3>Select</h3>
+                              <div class="col-md-9">
+                                <select class="form-control" id="select1" name="select1">
+                                <option value="0">Please select</option>
+                                <option value="1">Option #1</option>
+                                <option value="2">Option #2</option>
+                                <option value="3">Option #3</option>
+                                </select>
+                                </div>
+
+                              <h3>input file</h3>
+                              <input id="file-input" type="file" name="file-input">
+
+                              <h3>calendar</h3>
+                              <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+
+                              <h3>tablas</h3>
+                              <table class="table table-responsive-sm table-bordered">
+                                <thead>
+                                <tr>
+                                <th>Username</th>
+                                <th>Date registered</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                <td>Pompeius René</td>
+                                <td>2012/01/01</td>
+                                <td>Member</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                                </tr>
+                                <tr>
+                                <td>Paĉjo Jadon</td>
+                                <td>2012/02/01</td>
+                                <td>Staff</td>
+                                <td><span class="badge badge-danger">Banned</span></td>
+                                </tr>
+                                <tr>
+                                <td>Micheal Mercurius</td>
+                                <td>2012/02/01</td>
+                                <td>Admin</td>
+                                <td><span class="badge badge-secondary">Inactive</span></td>
+                                </tr>
+                                <tr>
+                                <td>Ganesha Dubhghall</td>
+                                <td>2012/03/01</td>
+                                <td>Member</td>
+                                <td><span class="badge badge-warning">Pending</span></td>
+                                </tr>
+                                <tr>
+                                <td>Hiroto Šimun</td>
+                                <td>2012/01/21</td>
+                                <td>Staff</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                                </tr>
+                                </tbody>
+                                </table>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+            </div>
         </div>
         
     </body>
