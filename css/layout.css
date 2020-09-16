@@ -113,12 +113,12 @@ ul.acorh li:target ul {
 /*Css del contenido*/
 .content{
     display: grid;
-    grid-template-rows: 1fr 8fr;
-    row-gap: 1em;
+    grid-template-rows: 50px 11fr;
+    row-gap: 40px;
 }
 .content-form{
     display: grid;
-    grid-template-rows:1fr 7fr;
+    grid-template-rows: 80px 11fr;
     width: 95%;
     margin: 0 auto;
     background-color: #ffffff;

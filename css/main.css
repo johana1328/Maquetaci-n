@@ -1,0 +1,96 @@
+.logout{
+    float: right;
+    margin-top: 17px;
+    margin-right: 38px;
+    font-size: 15px;
+}
+.perfil{
+    float: right;
+
+}
+
+.perfil>span{
+    float: right;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-right: 38px;
+    font-size: 18px;
+}
+.content-video{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    border: 1px solid rgb(170, 170, 170);
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 450px;
+    text-align: center;
+}
+.chat{
+    display: grid;
+    grid-template-rows: 60px 1fr 50px;
+    border-left:1px solid rgb(170, 170, 170);
+}
+.config{
+    border-bottom: 1px solid rgb(170, 170, 170);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+
+
+}
+.icons-chat{
+    color: #3C4B64;
+
+}
+
+.mensaje{
+   border-bottom: 1px solid rgb(170, 170, 170);
+   
+}
+
+.foto{
+    width: 70%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.video{
+    display: grid;
+    grid-template-rows: 60px 1fr 50px;
+}
+
+.hora{
+    border-bottom: 1px solid rgb(170, 170, 170); 
+}
+
+.persona-video{
+    border-bottom: 1px solid rgb(170, 170, 170); 
+
+
+}
+.opciones-video{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+
+
+}
+
+.enviar{
+    display: grid;
+   grid-template-columns: 1fr 18px; 
+   padding-right: 69px;
+}
+
+.icono-avion{
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.form-col2{
+    display: grid;
+    grid-template-columns: minmax(100px,400px) minmax(100px,400px);
+    column-gap:1em ;
+    align-content: center;
+}
