@@ -270,9 +270,32 @@ table {
     border-top-color: #d8dbe0;
 }
 
-th {
-    text-align: inherit;
+.content-form{
+    border: solid 1px black;
 }
+#horario{
+    white-space: pre-line;
+}
+
+.form-group{
+    top:0px;
+    margin:0px;
+}
+.form-title{
+    padding: 2px;
+}
+
+#grupo2{
+    top:0px;
+    padding: 0px;
+}
+
+.form-title {
+    margin:0px;
+}
+
+
+
 
 
 
