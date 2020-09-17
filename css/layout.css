@@ -118,11 +118,12 @@ ul.acorh li:target ul {
 }
 .content-form{
     display: grid;
-    grid-template-rows: 80px 11fr;
+    grid-template-rows: 38px 11fr;
     width: 95%;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 30px;
+    row-gap: 1em;
 }
 .content-option{
     background-color: #ffffff;

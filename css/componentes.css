@@ -385,6 +385,13 @@ a {
     color: #3C4B64;
 }
 
+.btn-success{
+    
+        color:#fff;
+        background-color: #39f;
+        border-color:#39f;
+    
+}
 /*Notificacion*/
 html:not([dir=rtl]) .badge, html:not([dir=rtl])  .badge {
     left: 71%;
@@ -497,5 +504,9 @@ html:not([dir=rtl]) .badge, html:not([dir=rtl])  .badge {
   @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
   }
-
+/* textArea*/
+  textarea {
+    overflow: auto;
+    resize: vertical;
+}
 

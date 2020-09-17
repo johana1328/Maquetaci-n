@@ -25,6 +25,7 @@
     background-color: #ffffff;
     height: 450px;
     text-align: center;
+    margin-top: 18px;
 }
 .chat{
     display: grid;
@@ -91,6 +92,37 @@
 .form-col2{
     display: grid;
     grid-template-columns: minmax(100px,400px) minmax(100px,400px);
-    column-gap:1em ;
-    align-content: center;
+    column-gap:1em;
+    justify-content: center;
+    padding-top: 20px;
+    row-gap: 1em;
+    margin: 0 auto;
+
+}
+
+.col1-expan{
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.boton1{
+    float: right;
+    margin-top: 17px;
+    margin-right: 38px;
+    font-size: 15px;
+   
+}
+.content-center{
+    text-align: center;
+}
+
+.filtro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:1em;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    
 }
