@@ -369,7 +369,7 @@ small {
 /* Link botones*/
 a.nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #3C4B64 !important;
+    background-color: #39f !important;
     border-radius: 3px;
 }
 .nav-pills .nav-link {
