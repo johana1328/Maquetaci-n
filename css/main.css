@@ -126,3 +126,9 @@
     margin: 0 auto;
     
 }
+
+.nav-link{
+    text-decoration:underline;
+    background-color: transparent;
+    color:#39f;
+}
