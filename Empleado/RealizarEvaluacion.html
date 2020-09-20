@@ -5,7 +5,8 @@
         <title>Gestion Talento CMC</title>
         <link rel="stylesheet" href="../css/main.css"  /> 
         <link rel="stylesheet" href="../css/layout.css"  /> 
-        <link rel="stylesheet" href="../css/componentes.css"  /> 
+        <link rel="stylesheet" href="../css/componentes.css"  />
+        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
@@ -28,14 +29,663 @@
             </div>
         </div>
             <div class="content">
-                <div class="content-option">mmm</div>
+                <div class="content-option">
+                    <div class="perfil"><a class="nav-link active logout" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+                        <span><i class="fa fa-user-o" aria-hidden="true"></i> Miguel Fuentes</span>
+                        <span>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span class="badge badge-pill badge-info">7</span>
+                        </span>
+                    </div>
+                </div>
                 <div class="content-body">
                     <div class="content-form">
                         <div class="form-title">Realizar evaluación</div>
                         <div class="form-body">
                            <h3>Formulario de evaluación de desempeño</h3>
                         </div>
-                        
+                        <div class="form-col2">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Cargo</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese segundo nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Gerente</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su apellido">
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Fecha Evaluacion</label>
+                                <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Fecha Ingreso</label>
+                                <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                            </div>
+                            <div class="form-group 4">
+                                <label for="name">Departamento</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su apellido">
+                            </div>
+                        </div>
+                        <table class="table table-responsive-sm table-bordered">
+                                <tr>
+                                <thead>
+                                <th>Categoria</th>
+                                <th>Pregunta</th>
+                                <th>Muy debajo de las Expectativas</th>
+                                <th>Debajo de las Expectativas</th>
+                                <th>Alcanza Expectativas</th>
+                                <th>Mejora Expectativas</th>
+                                <th>Sobresaliente</th>
+                                </tr>
+                                </thead>
+                                </tr>
+                                <tbody>
+                                     <tr>
+                                    <td>Productividad</td>
+                                    <td>Complete el flujo de trabajo y logra los objetivos deseados</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Productividad</td>
+                                    <td>Desarrolla labores y responsabilidades minuiciosamente y con confiablilidad</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Productividad</td>
+                                    <td>Contribuye al logro de las metas y prioridades del departamento</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Eficiencia</td>
+                                    <td>Provee Productos de alta calidad, programas, procedimientos y servicio, demuestra compromiso para el mejoramiento continuo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Eficiencia</td>
+                                    <td>Busca recursos e innova en su trabajo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                     <tr>
+                                    <td>Eficiencia</td>
+                                    <td>Realiza decisiones a tiempo y con firmeza</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                      <tr>
+                                    <td>Habilidades de Organización</td>
+                                    <td>Planea, prioriza y organiza el trabajo apropiadamente</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                        <tr>
+                                    <td>Habilidades de Organización</td>
+                                    <td>Identifica y utiliza recursos de forma eficaz y responsible</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                        <tr>
+                                    <td>Habilidades de Organización</td>
+                                    <td>Se auto-maneja y trabaja bien con mínima supervisión</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Aprendizaje y Desarrollo</td>
+                                    <td>Demuestra flexibilidad y se adapta bien al cambio</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Aprendizaje y Desarrollo</td>
+                                    <td>Acepta responsabilidades por acciones propias y apprende continuamente de las experiencias</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                      <tr>
+                                    <td>Aprendizaje y Desarrollo</td>
+                                    <td>Demuestra aprendizaje continuo al estar al tanto de nuevos desarrollos y adquiriendo nuevas habilidades relacionadas la trabajo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Comunicación</td>
+                                    <td>Comunica clara y efectivamente las ideas tanto oral como por escrito</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Comunicación</td>
+                                    <td>Recive y provee feedback continuo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Comunicación</td>
+                                    <td>Usa los canales de comunicación apropiadospara promulgar y espacir información e ideas de forma oportuna</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Relaciones Interpersonales</td>
+                                    <td>Participa activamente y contribuye como mimebro efectivo del equipo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Relaciones Interpersonales</td>
+                                    <td>Construye relaciones de trabajo cooperativas y contribuye a la resolución de conflictos en el espacio de trabajo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Relaciones Interpersonales</td>
+                                    <td>Prmueve y apoya la diversidad, demuestra respeto por otros, trata de forma justa a todos</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Asistencia</td>
+                                    <td>Frecuentemente llega temprano al trabajo</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                    <tr>
+                                    <td>Asistencia</td>
+                                    <td>Sigue el proceso cuando requiere de un permiso especial</td>
+                                    <td>
+                                    <div class="form-col-s-1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                     <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    <td>
+                                    <div class="form-col1">
+                                    <input class="form-control" id="name" type="text" placeholder="Opcion">
+                                    </div>
+                                    </td>
+                                    </tr>
+
+                                </tbody>
+                        </table>
 
                     </div>
                 </div>
