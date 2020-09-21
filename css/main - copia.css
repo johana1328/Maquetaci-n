@@ -1,146 +1,10 @@
-/*Css template genaral*/
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    height: 100%;
-   }
-
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-    font-size: .875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    color: #3c4b64;
-    background-color: #ebedef;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    height: 100%;
-    margin:0px;
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-    height: 100%;
-}
-
-.menu{
-    background-color: #3C4B64;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 100px [main-start] 100px [main-end] 100px;
-}
-
-/*Css del menu*/
-.logo{
-    width: 196px;
-    padding-left: 11px;
-    padding-right: 31px;
-    padding-top: 8px;
-}
-
-ul.acorh, ul.acorh * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-ul.acorh {
-    margin: 10px auto;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-}
-
-ul.acorh li {
-    list-style: none;
-}
-
-ul.acorh li a {
-    display: block;
-    padding: 10px 10px 10px 10px;
-    background:#3C4B64;
-    color: #eee;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-weight: 400;
-}
-
-ul.acorh li ul {
-    max-height: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    transition: .3s all ease-in;
-}
-
-ul.acorh li li a {
-    padding: 10px 10px 10px 10px;
-    background: #3C4B64;
-    color: #ffffff;
-    border: 0;
-    box-sizing: border-box;
-}
-
-ul.acorc li li:last-child a {
-    border-bottom: 0;
-}
-
-ul.acorh li:hover ul {
-    max-height: 300px;
-    transition: .3s all ease-in;
-}
-
-ul.acorh li a:hover {
-    background:  #39f;
-    color: #fff;
-}
-
-ul.acorh li:target ul {
-    max-height: 300px;
-    transition: .3s all ease-in;
-}
-
-/*Css del contenido*/
-.content{
-    display: grid;
-    grid-template-rows: 50px 11fr;
-    row-gap: 40px;
-}
-.content-form{
-    display: grid;
-    grid-template-rows: 38px 11fr;
-    width: 95%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 30px;
-    row-gap: 1em;
-}
-.content-option{
-    background-color: #ffffff;
-    min-height:70px ;
-}
-.form-title{
-    border-bottom: 1px solid #d8dbe0;
-    font-weight: 700;
-    margin-bottom: 40px;
-}
 
 
 
 #menu a {
     text-decoration: none;
     margin-right: 3rem;
-    color: black;
+    color: white;
 }
 
 ul#menu li{
@@ -167,7 +31,7 @@ nav{
 
 }
 #fondo{
-    background-image:url("../img2/fondo.jpg");
+    background-image:url("img/fondo1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     margin:0px;
@@ -181,7 +45,7 @@ nav{
 .header{
     width: 100%;
     height: 100px;
-    background-color: #f2f4f7;
+    background-color: #3c4b64;
 
 }
 
@@ -193,7 +57,7 @@ nav{
     transform: translate(-21%, -92%);
     font-family:"Segoe UI";
     font-size: 52px;
-    color: black;
+    color:white;
     text-shadow: gray 5px 5px 5px;
 }
 
@@ -214,7 +78,8 @@ nav{
 
 .titulo1{
 
-    background-color: #f2f4f7;
+    background-color: #3c4b64;
+    color: white;
     padding-top: 3%;
     text-align: center;
     padding-bottom: 3%;
@@ -232,11 +97,12 @@ nav{
 .contenido{
     font-family: "Segoe UI"; 
     text-align: center;
+    padding-left: 30px;
 }
 
 .texto{
-    text-align: justify;
-    padding-right: 129px;
+    padding-right: 10px;
+    width: 600px;
 
 }
 
@@ -276,7 +142,7 @@ border: solid;
 
 .servicios{
   display: grid; 
-  grid-template-rows:repeat(4, auto);
+  grid-template-rows:repeat(3, auto);
   min-height: 500px;
   row-gap: 1em;
 
@@ -286,8 +152,9 @@ border: solid;
 
 #hoteles-card{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 1em;
+    padding: 10px;
    
     
     
@@ -349,7 +216,7 @@ p{
 }
 
 #fondoimg{
-    background-image: url("../img2/viaje/viaje1.jpg");
+    background-image: url("../img/viaje/viaje1.jpg");
     min-height: 600px;
     
 }
@@ -405,7 +272,47 @@ input[type=button]{
     width: 100px;
     margin-top: 10px;
 }
+footer{
+    text-align: center;
+    background-color: #47494f;
+}
+#logo{
+    padding-left: 350x;
+}
 
+#you{
+    width: 35px;
+    padding-top: 15px;
+    padding-right: 40px;
+    float: right;
+}
+#tui{
+    width: 35px;
+    padding-top: 15px;
+    padding-right: 45px;
+    float: right;
+}
+#ind{
+    width: 35px;
+    padding-top: 15px;
+    padding-right: 50px;
+    float: right;
+}
+#wif{
+    width: 35px;
+    padding-top: 15px;
+    padding-right: 55px;
+    float: right;
+}
+#sob{
+    width: 35px;
+    padding-top: 15px;
+    padding-right: 60px;
+    float: right;
+}
+.iconos{
+    padding-left: 500px;
+}
 
 
 

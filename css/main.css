@@ -132,3 +132,10 @@
     background-color: transparent;
     color:#39f;
 }
+nav li{
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+    margin:5px;
+    font:bold 20px Copperplate;
+}
