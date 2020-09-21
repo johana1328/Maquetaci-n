@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Gestion Talento CMC</title>
-        <link rel="stylesheet" href="../css/main.css"  /> 
-        <link rel="stylesheet" href="../css/layout.css"  /> 
-        <link rel="stylesheet" href="../css/componentes.css"  /> 
-    </head>
-    <body>
-        <div class="container">
-          <div class="menu">
-            <div class="logo"><img class="logo"src="../img/logo.png"></img></div>
+   <head>
+      <meta charset="utf-8">
+      <title>Gestion Talento CMC</title>
+      <link rel="stylesheet" href="../css/main.css"  />
+      <link rel="stylesheet" href="../css/layout.css"  />
+      <link rel="stylesheet" href="../css/componentes.css"  />
+      <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="menu">
+            <div class="logo"><a href="index.html"><img class="logo"src="../img/logo.png"></img></a></div>
             <div class="opciones">
-                <ul class="acorh">
-                  <li id="opcion1"><a href="#opcion1">Información Básica</a>
-                    <ul>
-                      <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
-                    </ul>
+               <ul class="acorh">
+                  <li id="opcion1">
+                     <a href="#opcion1">Información Básica</a>
+                     <ul>
+                        <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
+                     </ul>
                   </li>
-                    <li id="opcion2"><a href="#opcion2">Entrevista</a>
-                      <ul>
+                  <li id="opcion2">
+                     <a href="#opcion2">Entrevista</a>
+                     <ul>
                         <li><a href="Entrevista.html">Realizar entrevista</a></li>
                         <li><a href="Calendario.html">Calendario</a></li>
-                      </ul>
-                    </li>
-                    <li id="opcion3"><a href="#opcion3">Pruebas</a>
+                     </ul>
+                  </li>
+                  <li id="opcion2">
+                     <a href="#opcion2">Pruebas</a>
+                     <ul>
+                        <li><a href="PruebaTecnica.html">Tecnicas</a></li>
+                        <li><a href="PruebaPsicotecnica.html">Psicotecnias</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="content">
+            <div class="content-option">
+               <div class="perfil"><a class="nav-link active logout" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+                  <span><i class="fa fa-user-o" aria-hidden="true"></i> Tania Lopez</span>
+                  <span>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </span>
+               </div>
+            </div>
+            <div class="content-body">
+               <div class="content-form">
+                  <div class="form-title">Entrevista</div>
+                  <div class="form-body">
+                     <!--inicio funcionalidad-->
+                     <div class="month">      
                       <ul>
-                        <li><a href="PruebaTecnica.html">Técnica</a></li>
-                        <li><a href="PruebaPsicotecnica.html">Psicotécnicas</a></li>
+                        <li class="prev">&#10094;</li>
+                        <li class="next">&#10095;</li>
+                        <li>
+                          OCTUBRE<br>
+                          <span style="font-size:18px">2020</span>
+                        </li>
                       </ul>
-                    </li>
-                  </ul>
-            </div>
-        </div>
-            <div class="content">
-                <div class="content-option">mmm</div>
-                <div class="content-body">
-                    <div class="content-form">
-                        <div class="form-title">Calendario</div>
-                        <div class="form-body">
-                          <h3>Calendario</h3>
-                        </div>
-                        
-
                     </div>
-                </div>
-
+                    
+                    <ul class="weekdays">
+                      <li>Lu</li>
+                      <li>Ma</li>
+                      <li>Mi</li>
+                      <li>Ju</li>
+                      <li>Vi</li>
+                      <li>Sa</li>
+                      <li>Do</li>
+                    </ul>
+                    
+                    <ul class="days">  
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                      <li>4</li>
+                      <li>5</li>
+                      <li>6</li>
+                      <li>7</li>
+                      <li>8</li>
+                      <li>9</li>
+                      <li><span class="active">10</span></li>
+                      <li>11</li>
+                      <li>12</li>
+                      <li>13</li>
+                      <li>14</li>
+                      <li>15</li>
+                      <li>16</li>
+                      <li>17</li>
+                      <li>18</li>
+                      <li>19</li>
+                      <li>20</li>
+                      <li>21</li>
+                      <li>22</li>
+                      <li>23</li>
+                      <li>24</li>
+                      <li>25</li>
+                      <li>26</li>
+                      <li>27</li>
+                      <li>28</li>
+                      <li>29</li>
+                      <li>30</li>
+                      <li>31</li>
+                    </ul>
+                     <!--fin funcionalidad-->
+                  </div>
+               </div>
             </div>
-        </div>
-        
-    </body>
+         </div>
+      </div>
+   </body>
 </html>

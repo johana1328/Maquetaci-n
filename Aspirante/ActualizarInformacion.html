@@ -1,120 +1,186 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Gestion Talento CMC</title>
-        <link rel="stylesheet" href="../css/main.css"  /> 
-        <link rel="stylesheet" href="../css/layout.css"  /> 
-        <link rel="stylesheet" href="../css/componentes.css"  /> 
-    </head>
-    <body>
-        <div class="container">
-            <div class="menu">
-                <div class="logo"><img class="logo"src="../img/logo.png"></img></div>
-                <div class="opciones">
-                    <ul class="acorh">
-                      <li id="opcion1"><a href="#opcion1">Información Básica</a>
-                        <ul>
-                          <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
-                        </ul>
-                      </li>
-                        <li id="opcion2"><a href="#opcion2">Entrevista</a>
-                          <ul>
-                            <li><a href="Entrevista.html">Realizar entrevista</a></li>
-                            <li><a href="Calendario.html">Calendario</a></li>
-                          </ul>
-                        </li>
-                        <li id="opcion3"><a href="#opcion3">Pruebas</a>
-                          <ul>
-                            <li><a href="PruebaTecnica.html">Técnica</a></li>
-                            <li><a href="PruebaPsicotecnica.html">Psicotécnicas</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                </div>
+   <head>
+      <meta charset="utf-8">
+      <title>Gestion Talento CMC</title>
+      <link rel="stylesheet" href="../css/main.css"  />
+      <link rel="stylesheet" href="../css/layout.css"  />
+      <link rel="stylesheet" href="../css/componentes.css"  />
+      <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="menu">
+            <div class="logo"><a href="index.html"><img class="logo"src="../img/logo.png"></img></a></div>
+            <div class="opciones">
+               <ul class="acorh">
+                  <li id="opcion1">
+                     <a href="#opcion1">Información Básica</a>
+                     <ul>
+                        <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
+                     </ul>
+                  </li>
+                  <li id="opcion2">
+                     <a href="#opcion2">Entrevista</a>
+                     <ul>
+                        <li><a href="Entrevista.html">Realizar entrevista</a></li>
+                        <li><a href="Calendario.html">Calendario</a></li>
+                     </ul>
+                  </li>
+                  <li id="opcion2">
+                     <a href="#opcion2">Pruebas</a>
+                     <ul>
+                        <li><a href="PruebaTecnica.html">Técnica</a></li>
+                        <li><a href="PruebaPsicotecnica.html">Psicotécnica</a></li>
+                     </ul>
+                  </li>
+               </ul>
             </div>
-            <div class="content">
-                <div class="content-option">mmm</div>
-                    <div class="content-body">
-                        <div class="content-form">
-                            <div class="form-title">Actualizar información</div>
-                            <div id="horario">
-                                <label for="date">Example date</label>
-                                <input type="date" id="date">
-                            </div>
-                            <svg width="8em" height="8em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
-                                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
-                            </svg>
-                            <div class="form-group1">
-                                <label for="name">Primer Nombre</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre">
-                            </div>
-                            <div id="grupo2">
-                                <label for="name">Segundo Nombre</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese segundo nombre">
-                            </div>
-                            <div class="form-group1">
-                                <label for="name">Primer Apellido</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese su apellido">
-                            </div>
-                            <div id="grupo2">
-                                <label for="name">Segundo Apellido</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese segundo apellido">
-                            </div>
-                            <div class="form-group col-md-4">
-                                    <label for="inputState">Tipo documento Identidad</label>
-                                    <select id="inputState" class="form-control">
-                                    <option selected>Seleccione...</option>
-                                    <option>Cedula Ciudadania</option>
-                                    <option>Tarjeta Identidad</option>
-                                    <option>Cedula Extranjeria</option>
-                                    <option>Pasaporte</option>
-                                    </select>
-                            </div>
-                            <div id="grupo2">
-                                <label for="name">Numero Documento</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese numero documento">
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                  <label for="inputCity">Ciudad</label>
-                                  <input type="text" class="form-control" id="inputCity">
-                            </div>
-                            <div class="form-group col-md-4">
-                                    <label for="inputState">Localidad</label>
-                                    <select id="inputState" class="form-control">
-                                    <option selected>Seleccione...</option>
-                                    <option>Usaquen</option>
-                                    <option>Chapinero</option>
-                                    <option>Santa Fe</option>
-                                    <option>San Cristóbal</option>
-                                    <option>Usme</option>
-                                    <option>Tunjuelito</option>
-                                    <option>Bosa</option>
-                                    <option>Kennedy</option>
-                                    <option>Fontibón</option>
-                                    <option>Engativá</option>
-                                    <option>Suba</option>
-                                    <option>Barrios Unidos</option>
-                                    <option>Teusaquillo</option>
-                                    <option>Los Mártires</option>
-                                    <option>Antonio Nariño</option>
-                                    <option>Puente Aranda</option>
-                                    <option>La Candelaria</option>
-                                    <option>Rafael Uribe Uribe</option>
-                                    <option>Ciudad Bolívar</option>
-                                    <option>Sumapaz</option>
-                                    </select>
-                            </div>
-                            <div class="form-group1">
-                                <label for="name">Direccion</label>
-                                <input class="form-control" id="name" type="text" placeholder="Ingrese su direccion">
-                            </div>
-                    </div>
+         </div>
+         <div class="content">
+            <div class="content-option">
+               <div class="perfil"><a class="nav-link active logout" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+                  <span><i class="fa fa-user-o" aria-hidden="true"></i> Tania Lopez</span>
+                  <span>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </span>
+               </div>
             </div>
-        </div>
-
-    </body>
+            <div class="content-body">
+               <div class="content-form">
+                  <div class="form-title">Datos Basicos</div>
+                  <div class="form-body">
+                     <!--inicio funcionalidad-->
+                     <div class="form-col2">
+                      <div class="form-group">
+                          <label for="name">Primer Nombre</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Segundo Nombre</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese segundo nombre">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Primer Apellido</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese su apellido">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Segundo Apellido</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese segundo apellido">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Lugar Nacimiento</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese lugar">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Fecha Nacimiento</label>
+                          <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                      </div>
+                      <div class="col-md-9">
+                          <label for="name">Tipo documento Identidad</label>
+                          <select class="form-control" id="select1" name="select1">
+                          <option value="0">Seleccione...</option>
+                          <option value="1">Cedula Ciudadania</option>
+                          <option value="2">Tarjeta Identidad</option>
+                          <option value="3">Cedula Extranjeria</option>
+                          <option value="3">Pasaporte</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Numero documento</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese numero documento">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Fecha expedicion</label>
+                          <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Lugar expedicion</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese lugar">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">RH</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese rh">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Telefono (Celular-Fijo)</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese numero ">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Direccion</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese direccion">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Email</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese email">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Ciudad</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese ciudad">
+                      </div>
+                      <div class="col-md-9">
+                          <label for="name">Localidad</label>
+                          <select class="form-control" id="select1" name="select1">
+                          <option value="0">Seleccione...</option>
+                          <option value="1">Usaquen</option>
+                          <option value="2">Chapinero</option>
+                          <option value="3">Santa Fe</option>
+                          <option value="4">San Cristóbal</option>
+                          <option value="5">Usme</option>
+                          <option value="6">Tunjuelito</option>
+                          <option value="7">Bosa</option
+                          <option value="8">Kennedy</option>
+                          <option value="9">Fontibón</option>
+                          <option value="10">Engativá</option>
+                          <option value="11">Suba</option>
+                          <option value="12">Barrios Unidos</option>
+                          <option value="13">Teusaquillo</option>
+                          <option value="14">Los Mártires</option>
+                          <option value="15">Antonio Nariño</option>
+                          <option value="16">Puente Aranda</option>
+                          <option value="17">La Candelaria</option>
+                          <option value="18">Rafael Uribe Uribe</option>
+                          <option value="19">Ciudad Bolívar</option>
+                          <option value="20">Sumapaz</option>
+                          </select>
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Barrio</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese barrio">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Estado civil</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese estado civil">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Numero de hijos</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese numero hijos">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Nivel estudios</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese nivel estudios">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Eps</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese eps">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Cesantias</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese cesantias">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">AFP (Pensiones)</label>
+                          <input class="form-control" id="name" type="text" placeholder="Ingrese afp">
+                      </div>
+                      <br>
+                      <a href="#"><button class="btn btn-block btn-info" type="button">Enviar</button></a>
+                      </div>
+					 
+                     <!--fin funcionalidad-->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>

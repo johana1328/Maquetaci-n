@@ -1,53 +1,170 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Gestion Talento CMC</title>
-        <link rel="stylesheet" href="../css/main.css"  /> 
-        <link rel="stylesheet" href="../css/layout.css"  /> 
-        <link rel="stylesheet" href="../css/componentes.css"  /> 
-    </head>
-    <body>
-        <div class="container">
-          <div class="menu">
-            <div class="logo"><img class="logo"src="../img/logo.png"></img></div>
+   <head>
+      <meta charset="utf-8">
+      <title>Gestion Talento CMC</title>
+      <link rel="stylesheet" href="../css/main.css"  />
+      <link rel="stylesheet" href="../css/layout.css"  />
+      <link rel="stylesheet" href="../css/componentes.css"  />
+      <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="menu">
+            <div class="logo"><a href="index.html"><img class="logo"src="../img/logo.png"></img></a></div>
             <div class="opciones">
-                <ul class="acorh">
-                  <li id="opcion1"><a href="#opcion1">Información Básica</a>
-                    <ul>
-                      <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
-                    </ul>
+               <ul class="acorh">
+                  <li id="opcion1">
+                     <a href="#opcion1">Información Básica</a>
+                     <ul>
+                        <li><a href="ActualizarInformacion.html">Actualizar información </a></li>
+                     </ul>
                   </li>
-                    <li id="opcion2"><a href="#opcion2">Entrevista</a>
-                      <ul>
+                  <li id="opcion2">
+                     <a href="#opcion2">Entrevista</a>
+                     <ul>
                         <li><a href="Entrevista.html">Realizar entrevista</a></li>
                         <li><a href="Calendario.html">Calendario</a></li>
-                      </ul>
-                    </li>
-                    <li id="opcion3"><a href="#opcion3">Pruebas</a>
-                      <ul>
+                     </ul>
+                  </li>
+                  <li id="opcion2">
+                     <a href="#opcion2">Pruebas</a>
+                     <ul>
                         <li><a href="PruebaTecnica.html">Técnica</a></li>
-                        <li><a href="PruebaPsicotecnica.html">Psicotécnicas</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                        <li><a href="PruebaPsicotecnica.html">Psicotécnica</a></li>
+                     </ul>
+                  </li>
+               </ul>
             </div>
-        </div>
-            <div class="content">
-                <div class="content-option">mmm</div>
-                <div class="content-body">
-                    <div class="content-form">
-                        <div class="form-title">Prueba técnica</div>
-                        <div class="form-body">
-                           <h3>Formulario de prueba técnica</h3>
+         </div>
+         <div class="content">
+            <div class="content-option">
+               <div class="perfil"><a class="nav-link active logout" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+                  <span><i class="fa fa-user-o" aria-hidden="true"></i> Tania Lopez</span>
+                  <span>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </span>
+               </div>
+            </div>
+            <div class="content-body">
+               <div class="content-form">
+                  <div class="form-title">Prueba Técnica</div>
+                  <div class="form-body">
+                     <!--inicio funcionalidad-->
+                     <div class="form-col2-1">
+                      <div class="card-body">
+                        <h3>check</h3> 
+                        <div class="col-md-9 col-form-label">
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check1" type="checkbox" value="">
+                         <label class="form-check-label" for="check1">Option 1</label>
+                         </div>
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check2" type="checkbox" value="">
+                         <label class="form-check-label" for="check2">Option 2</label>
+                         </div>
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check3" type="checkbox" value="">
+                         <label class="form-check-label" for="check3">Option 3</label>
+                         </div>
+                         </div>
+                         
+                         <h3>Select</h3>
+                         <div class="col-md-9">
+                           <select class="form-control" id="select1" name="select1">
+                           <option value="0">Please select</option>
+                           <option value="1">Option #1</option>
+                           <option value="2">Option #2</option>
+                           <option value="3">Option #3</option>
+                           </select>
+                           </div>
+
+                         <h3>input file</h3>
+                         <input id="file-input" type="file" name="file-input">
                         </div>
+                     
+                         
+                        <div class="card-body">
+                          <h3>check</h3> 
+                          <div class="col-md-9 col-form-label">
+                           <div class="form-check checkbox">
+                           <input class="form-check-input" id="check1" type="checkbox" value="">
+                           <label class="form-check-label" for="check1">Option 1</label>
+                           </div>
+                           <div class="form-check checkbox">
+                           <input class="form-check-input" id="check2" type="checkbox" value="">
+                           <label class="form-check-label" for="check2">Option 2</label>
+                           </div>
+                           <div class="form-check checkbox">
+                           <input class="form-check-input" id="check3" type="checkbox" value="">
+                           <label class="form-check-label" for="check3">Option 3</label>
+                           </div>
+                           </div>
+                           
+                           <h3>Select</h3>
+                           <div class="col-md-9">
+                             <select class="form-control" id="select1" name="select1">
+                             <option value="0">Please select</option>
+                             <option value="1">Option #1</option>
+                             <option value="2">Option #2</option>
+                             <option value="3">Option #3</option>
+                             </select>
+                             </div>
+  
+                           <h3>input file</h3>
+                           <input id="file-input" type="file" name="file-input">
+                          </div>
+                       
                         
+  
+                                </div>
 
-                    </div>
-                </div>
 
+
+                              </div>
+
+                              <div class="card-body">
+                        <h3>check</h3> 
+                        <div class="col-md-9 col-form-label">
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check1" type="checkbox" value="">
+                         <label class="form-check-label" for="check1">Option 1</label>
+                         </div>
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check2" type="checkbox" value="">
+                         <label class="form-check-label" for="check2">Option 2</label>
+                         </div>
+                         <div class="form-check checkbox">
+                         <input class="form-check-input" id="check3" type="checkbox" value="">
+                         <label class="form-check-label" for="check3">Option 3</label>
+                         </div>
+                         </div>
+                         
+                         <h3>Select</h3>
+                         <div class="col-md-9">
+                           <select class="form-control" id="select1" name="select1">
+                           <option value="0">Please select</option>
+                           <option value="1">Option #1</option>
+                           <option value="2">Option #2</option>
+                           <option value="3">Option #3</option>
+                           </select>
+                           </div>
+
+                         <h3>input file</h3>
+                         <input id="file-input" type="file" name="file-input">
+                        </div>
+                     
+
+                        
+                      
+
+                              </div>
+					 
+                     <!--fin funcionalidad-->
+                  </div>
+               </div>
             </div>
-        </div>
-        
-    </body>
+         </div>
+      </div>
+   </body>
 </html>
