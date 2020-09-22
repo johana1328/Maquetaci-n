@@ -313,6 +313,32 @@ footer{
 .iconos{
     padding-left: 500px;
 }
+/*LOGIN*/
+
+.todo{
+    background-color: wheat;
+    padding-top: 100px;
+    
+}
+section{	
+	background: #b1b4ba;
+	border-radius: 0.5em;
+	margin: 0 auto;
+	text-align: center;
+    width: 30%;
+    border: 1px solid black;
+}
+.login{
+    padding-top: 10px;
+    
+}
+.form-group{
+    width: 50%;
+    padding-left: 90px;
+}
+a{
+    padding-top: 10px;
+}
 
 
 
