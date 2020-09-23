@@ -130,7 +130,7 @@
 .nav-link{
     text-decoration:underline;
     background-color: transparent;
-    color:#39f;
+    color:#008ece;
 }
 
 .card-body {
@@ -149,6 +149,7 @@
     padding-top: 10px;
     row-gap: 1em;
     margin: 0 auto;
+}
 nav li{
     text-align: center;
     display: inline-block;
