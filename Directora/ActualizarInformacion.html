@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gestion Talento CMC</title>
+        <link rel="stylesheet" href="../css/main.css"  />
+        <link rel="stylesheet" href="../css/layout.css"  />
+        <link rel="stylesheet" href="../css/componentes.css"  />
+        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <div class="logo"><a href="index.html"><img class="logo"src="../img/logo.png"></img></a></div>
+                <div class="opciones">
+                   <ul class="acorh">
+                      <li id="opcion1">
+                         <a href="#opcion1">Información</a>
+                         <ul>
+                            <li><a href="Documenatción.html">Documentación  </a></li>
+                            <li><a href="ActualizarInformacion.html">ActualizarInformación </a></li>
+                         </ul>
+                      </li>
+                      <li id="opcion2">
+                         <a href="#opcion2">Solicitud</a>
+                         <ul>
+                            <li><a href="AsignarSolicitud.html">Asignar solicitud</a></li>
+                            <li><a href="ConsultarSolicitud.html">Consultar solicitud</a></li>
+                         </ul>
+                      </li>
+                      <li id="opcion2">
+                         <a href="#opcion2">Evaluación de desempeño</a>
+                         <ul>
+                           <li><a href="ConsultarEvaluacion.html">Crear Evaluación</a></li>
+                            <li><a href="ConsultarEvaluacion.html">Consultar Evaluación</a></li>
+                         </ul>
+                      </li>
+                   </ul>
+                </div>
+             </div>
+            <div class="content">
+                <div class="content-option">
+                    <div class="perfil"><a class="nav-link active logout" href="../paginaPrincipal.html"><i class="fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesion</a>
+                        <span><i class="fa fa-user-o" aria-hidden="true"></i> Juana Mendez</span>
+                        <span>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+             
+                        </span>
+                    </div>
+                </div>
+                <div class="content-body">
+                    <div class="content-form">
+                        <div class="form-title">Datos basicos</div>
+                        <div class="form-body">
+                            <!--inicio funcionalidad-->
+                            <div class="form-col2">
+                            <div class="form-group">
+                                <label for="name">Primer Nombre</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Segundo Nombre</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese segundo nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Primer Apellido</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese su apellido">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Segundo Apellido</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese segundo apellido">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Lugar Nacimiento</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese lugar">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Fecha Nacimiento</label>
+                                <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="name">Tipo documento Identidad</label>
+                                <select class="form-control" id="select1" name="select1">
+                                <option value="0">Seleccione...</option>
+                                <option value="1">Cedula Ciudadania</option>
+                                <option value="2">Tarjeta Identidad</option>
+                                <option value="3">Cedula Extranjeria</option>
+                                <option value="3">Pasaporte</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Numero documento</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese numero documento">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Fecha expedicion</label>
+                                <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Lugar expedicion</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese lugar">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">RH</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese rh">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Telefono (Celular-Fijo)</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese numero ">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Direccion</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese direccion">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Email</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese email">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Ciudad</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese ciudad">
+                            </div>
+                            <div class="col-md-9">
+                                <label for="name">Localidad</label>
+                                <select class="form-control" id="select1" name="select1">
+                                <option value="0">Seleccione...</option>
+                                <option value="1">Usaquen</option>
+                                <option value="2">Chapinero</option>
+                                <option value="3">Santa Fe</option>
+                                <option value="4">San Cristóbal</option>
+                                <option value="5">Usme</option>
+                                <option value="6">Tunjuelito</option>
+                                <option value="7">Bosa</option
+                                <option value="8">Kennedy</option>
+                                <option value="9">Fontibón</option>
+                                <option value="10">Engativá</option>
+                                <option value="11">Suba</option>
+                                <option value="12">Barrios Unidos</option>
+                                <option value="13">Teusaquillo</option>
+                                <option value="14">Los Mártires</option>
+                                <option value="15">Antonio Nariño</option>
+                                <option value="16">Puente Aranda</option>
+                                <option value="17">La Candelaria</option>
+                                <option value="18">Rafael Uribe Uribe</option>
+                                <option value="19">Ciudad Bolívar</option>
+                                <option value="20">Sumapaz</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Barrio</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese barrio">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Estado civil</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese estado civil">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Numero de hijos</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese numero hijos">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Nivel estudios</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese nivel estudios">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Eps</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese eps">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Cesantias</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese cesantias">
+                            </div>
+                            <div class="form-group">
+                                <label for="name">AFP (Pensiones)</label>
+                                <input class="form-control" id="name" type="text" placeholder="Ingrese afp">
+                            </div>
+                            <br>
+                            <a href="ActualizarInformacion3.html"><button class="btn btn-block btn-info" type="button">Siguiente</button></a>
+                            </div>
+                            
+                            
+                            <!--fin funcionalidad-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

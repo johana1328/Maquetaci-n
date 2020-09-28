@@ -157,3 +157,85 @@ nav li{
     margin:5px;
     font:bold 20px Copperplate;
 }
+
+/* error*/
+.error{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.robot{
+    margin-left: 182px;
+    
+}
+
+.titulo-error h1{
+    font-size: 300px;
+    color: white;
+    text-shadow:#008ece 0.2em 0em 1em;  
+    -webkit-text-stroke: 1px #c6c8ca;
+    margin-top: -45px;
+    margin-right: 71px;
+    
+      
+
+}
+
+
+.titulo-error h6{
+   margin-top: -250px;
+    text-align: center;
+    font-weight: 200;
+    color: #008ece;
+    font-size: 41px;
+}
+
+
+.boton-error {
+    border: 1px solid  #1883ba;
+    outline: none;
+    background: transparent;
+    height: 40px;
+    color: #3C4B64;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -30px;
+    width: 30%;
+
+  }
+  .boton-error:hover{
+    color:#ffffff;
+    background-color:#1883ba;
+    border: 1px solid  #c6c8ca;
+  }
+
+  .robot2{
+      width: 90%;
+  }
+  .titulo-error2 h1{
+    font-size: 300px;
+    color: white;
+    text-shadow:#f391a1 0.2em 0em 1em;  
+    -webkit-text-stroke: 1px #c6c8ca;
+    margin-top: -45px;
+    margin-right: 71px;
+    
+      
+
+}
+
+
+.titulo-error2 h6{
+    margin-top: -250px;
+     text-align: center;
+     font-weight: 200;
+     color: #008ece;
+     font-size: 60px;
+ }
+
+ .form-error{
+     margin-top: -101px;
+ }
+ 
+ 
