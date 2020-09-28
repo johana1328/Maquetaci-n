@@ -509,5 +509,18 @@ html:not([dir=rtl]) .badge, html:not([dir=rtl])  .badge {
   textarea {
     overflow: auto;
     resize: vertical;
+}/*Consultar informacion analista*/
+#consultar{
+    width: 100px;
+}
+td{
+    text-align: center;
+}
+th{
+    font-size: medium;
+}
+/*Calendario Analista*/
+button{
+    margin-right: 500px;
 }
 
