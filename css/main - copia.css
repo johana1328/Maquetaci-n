@@ -672,20 +672,19 @@ p>i{
 
 /*programacion entrevista*/
 .todo1{
-    background-image: url(../img/prome.png);
+    background-image: url("../img/prome.png");
     
 }
-section{
-	background: rgba(40,57,101,.9);
+
+.login{
+    padding-top: 10px;
+    background: rgba(40,57,101,.9);
     border: 1px solid gray;
 	border-radius: 0.5em;
 	margin: 0 auto;
 	text-align: center;
     width: 30%;
-
-}
-.login{
-    padding-top: 10px;
+    font-family: sans-serif;
     
 }
 #logoper{
@@ -702,10 +701,10 @@ a{
     padding-top: 0px;
 }
 #logoen{
-    width: 50px;
+    width: 68px;
     height: 25px;
 }
-h3{
+.titulo-prog{
     color: white;
 }
 thead{
